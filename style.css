@@ -1,0 +1,108 @@
+/*RESETEO UNIVERSAL*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*animaciones*/
+
+.animaciones1{
+    width: 450px;
+    height: 450px;
+    margin: 50px auto;
+    background-color: blueviolet;
+}
+.animaciones1:hover{
+    /*
+    animation-none
+    animation-duration
+    */
+    animation: changeColor 10s;
+}
+/*fotogramas
+reglas en css comienzan con @*/
+@keyframes changeColor{
+    0%{
+        background-color: aqua;
+    }
+    45%{
+        border-radius: 50%;
+    }
+    100%{
+        width: 600px;
+    }
+    50%{
+        background-color: azure;
+        border: solid 4px black;
+    }
+    100%{
+        background-color: brown;
+    }
+}
+    .animaciones2{
+        width: 350px;
+        height: 350px;
+        margin: 65px auto;
+        background-color: rgb(58, 226, 43);
+    }
+    .animaciones2:hover{
+        /*
+        animation-none
+        animation-duration
+        */
+        animation: changeColor 7s;
+    }
+    /*fotogramas
+    reglas en css comienzan con @*/
+    @keyframes changeColor{
+        0%{
+            background-color: rgb(255, 123, 0);
+        }
+        25%{
+            border-radius: 50%;
+        }
+        70%{
+            width: 900px;
+        }
+        80%{
+            background-color: coral;
+            border: solid 4px black;
+        }
+        100%{
+            background-color: rgba(71, 165, 42, 0.534);
+}
+    }
+    .animaciones3{
+        width: 200px;
+        height: 200px;
+        margin: 65px auto;
+        background-color: rgba(226, 214, 43, 0.575);
+    }
+    .animaciones3:hover{
+        /*
+        animation-none
+        animation-duration
+        */
+        animation: changeColor 7s;
+    }
+    /*fotogramas
+    reglas en css comienzan con @*/
+    @keyframes changeColor{
+        0%{
+            background-color: crimson;
+        }
+        25%{
+            border-radius: 50%;
+        }
+        35%{
+            width: 700px;
+        }
+        70%{
+            background-color: coral;
+            border: solid 4px black;
+        }
+        100%{
+            background-color: rgba(71, 165, 42, 0.534);
+}
+    }
